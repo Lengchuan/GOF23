@@ -25,7 +25,7 @@ public class Subject {
      */
     public void notifyAllObservers(){
         for (Observer observer : observerList){
-            observer.update(this);
+             observer.update(this);
         }
 
     }

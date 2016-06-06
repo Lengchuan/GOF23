@@ -5,6 +5,6 @@ package com.observer;
  * @authoor lengchuan
  * @date 16-6-6
  */
-public interface Observer {
+public interface  Observer {
     void update(Subject subject);
 }

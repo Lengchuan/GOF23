@@ -13,7 +13,7 @@ public class ConcreteSubject extends Observable{
     public void setState(int state) {
         System.out.println("目标状态发生改变！");
         this.state = state;//目标状态发生改变
-        setChanged();//目标对象已经做了更改
+        setChanged();// 目标对象已经做了更改
         notifyObservers(state);//通知所有的观察者
     }
 

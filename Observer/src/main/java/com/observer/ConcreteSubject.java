@@ -21,7 +21,7 @@ public class ConcreteSubject extends Subject{
      * 目标对象发生变化，请通知所有观察者
      * @param state
      */
-    public void setState(int state) {
+    public void setState(int state)  {
         this.state = state;
         this.notifyAllObservers();
     }
